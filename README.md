@@ -12,6 +12,7 @@ Guidelines:
 1. [A Quick Guide to Organizing Computational Biology Projects](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424)
 2. [Good enough practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
 3. [How to share data with a statistician](https://github.com/jtleek/datasharing/blob/master/README.md).
+4. [Data Organization in Spreadsheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989)
 
 
 Directory structure
@@ -122,6 +123,14 @@ This is a huge resource for comparative genomics and evolutionary analyses. Gil 
 In addition, we currently have two grants for sequencing plant genomes:
 1. The new Zegar grant - Sequencing 8 grass genomes (from the Aristida genus). Project that deals with the evolution of C3->C4 photosynthesis, annuality <-> perenniality transitions, and drought adaptation.
 2. The Living Fossils project - Sequencing 5 huge gymnosperm genomes. Project that deals with genomic characterisitcs of diverging vs. not diverging gymnosperm lineages.
+
+Extra Note
+======
+
+1. Always store you data in the **[tidy format](https://vita.had.co.nz/papers/tidy-data.pdf)**. The key ideas are:
+    1. Each variable forms a column.
+    2. Each observation forms a row.
+    3. Each type of observational unit forms a table.
 
 
 Contributors
